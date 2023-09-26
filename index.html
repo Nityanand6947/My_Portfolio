@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nityanand's Portfolio</title>
+    <link rel="icon" href="favicon.ico?v=2">
+</head>
+<!--Box icons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!--Stylesheet css link-->
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact Me</a>
+            <button onclick="myFunction()"><i class='bx bxs-brightness-half'></i></button>
+        </nav>
+    </header>
+
+    <!--Home section Design-->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Nityanand</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm Fresher. And have good practice Knowledge on Frontend like HTML,CSS and Javascript and Backend like 
+                NodeJs, jQuery, Ejs, MySQL basic, MondoDB, Reactjs and also have basic Knowledge on Android app Development
+                with kotlin language and also cloud computing practitionar. 
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100013729480807"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/babumoshai_jack47/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/nityanand-tamsoy-81387a233/"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Nityanand6947"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="Resume/NityanandTamsoy.pdf"  id="res" class="btn" target="_blank">View CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/Profile.png" alt="">
+        </div>
+    </section>
+
+    <!--About section design -->
+    <section class="about" id="about">
+            <div class="rotate">
+                <div class="about-images">
+                    <img src="images/img1.png">
+                    <img src="images/img2.png">
+                    <img src="images/img3.png">
+                    <img src="images/img4.png">
+                    <img src="images/img5.png">
+                    <img src="images/img6.png">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About<span>Me</span></h2>
+                <h3>Full Stack Web Developer</h3>
+                <p>My name is Nityanand Tamsoy. I am 20 years old . My native place is Chaibasa in Jharkhand </p>
+                <a href="aboutMe/about.html" target="_blank" class="btn">Read More</a>
+            </div>
+    </section>
+
+    <!--service section Design -->
+
+    <section class="services" id="services">
+        <h2 class="heading"><span>My Acknowledgement</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Full Stack Web Development</h3>
+                <p>I have a practicle knowledge on frontend , backend as well as data management
+                    of MySQL and Mongodb . While on the time of my learning course i have made some 
+                    projects to highlight my knowledge on this field.
+                </p>
+                <a href="/Certificate/full stack web developemnt.pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-cloud'></i>
+                <h3>Cloud Computing</h3>
+                <p>I have a practitionar knowledge on this field and just for my kneen intrest 
+                    i have taken this course to expand my knowledge on this field.
+                </p>
+                <a href="#" class="btn">View Certificate</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile'></i>
+                <h3>Android App Development</h3>
+                <p> I have a basic knowledge on this field on kotlin language and because of my intrest to 
+                    know app the Development of app i choose to learn this course,
+                </p>
+                <a href="/Certificate/Android App Development Training - Certificate of Completion.pdf" target="_blank" class="btn">View Certificate</a>
+            </div>
+        </div>
+    </section> 
+
+    <!--Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My<span> Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Responsive Barber Website</h4>
+                    <p>The website is created using of HTML, CSS and Javascript</p>
+                    <a href="https://barber-frontend-site.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>IMDB clone</h4>
+                    <p>Website conatining React.js, CSS , Javascript and APIs.</p>
+                    <a href="https://imdb-clone-tmdb.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Koo landing Page</h4>
+                    <p>It is a intership mini project in which HTML and CSS is used.</p>
+                    <a href="https://simple-koo-landing-page.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Parallex</h4>
+                    <p>Website is show in parallex when scroll down just kind of animantion.</p>
+                    <a href="https://parallax-landing-pages.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online Resume Builder</h4>
+                    <p>This resume builder website is made up HTML, CSS and Javascript.</p>
+                    <a href="https://free-online-resume-builder-for-u.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>To do app</h4>
+                    <p>Here you can add data and delete and website is build with html, css and Javascript.</p>
+                    <a href="https://something-to-do17.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+
+        <form action="mailto:nityanandtamsoy17@gmail.com" method="post" enctype="text/plain">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="30" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    
+
+    <!--scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!--Custom js-->
+    <script src="script.js"></script>
+</body>
+<!--Footer Design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright ❤ All Rights reserved || 2023 by N.Tamsoy</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+</html>
